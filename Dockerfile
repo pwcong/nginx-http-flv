@@ -124,7 +124,7 @@ RUN rm -rf /var/cache/* /tmp/*
 ##########################
 # Build the release image.
 FROM alpine:3.13
-LABEL MAINTAINER Alfred Gutierrez <alf.g.jr@gmail.com>
+LABEL MAINTAINER Pwcong <pwcong@foxmail.com>
 
 # Set default ports.
 ENV HTTP_PORT 80
